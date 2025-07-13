@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TP_Tribal_Metallurgy.label>племенная металлургия</TP_Tribal_Metallurgy.label>
+  <TP_Tribal_Metallurgy.description>Основы обработки металлов.</TP_Tribal_Metallurgy.description>
+
+  <TP_Bronze_Metallurgy.label>выплавка бронзы</TP_Bronze_Metallurgy.label>
+  <TP_Bronze_Metallurgy.description>Основы металлургических технологий и первые сплавы.</TP_Bronze_Metallurgy.description>
+
+  <TP_Steel_Metallurgy.label>выплавка стали</TP_Steel_Metallurgy.label>
+  <TP_Steel_Metallurgy.description>Разработка современных сплавов и металлургических технологий.</TP_Steel_Metallurgy.description>
+
+
+</LanguageData>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SmeltSteel.label>Выплавить 20 единиц стали.</SmeltSteel.label>
+  <SmeltSteel.description>Выплавить небольшое кол-во стали, используя железо и небольшое уголь.</SmeltSteel.description>
+  <SmeltSteel.jobString>Выплавляет небольшое кол-во стали.</SmeltSteel.jobString>
+  <SmeltSteelBulk.label>Выплавить 100 единиц стали.</SmeltSteelBulk.label>
+  <SmeltSteelBulk.description>Выплавить большое кол-во стали, используя железо и уголь.</SmeltSteelBulk.description>
+  <SmeltSteelBulk.jobString>Выплавляет большое кол-во стали.</SmeltSteelBulk.jobString>
+
+  <SmeltIron.label>Переплавить железную руду.</SmeltIron.label>
+  <SmeltIron.description>Переплавить небольшое кол-во железной руды в железо.</SmeltIron.description>
+  <SmeltIron.jobString>Выплавляет небольшое кол-во железа.</SmeltIron.jobString>
+  <SmeltIronBulk.label>Выплавить 60 единиц железа из руды.</SmeltIronBulk.label>
+  <SmeltIronBulk.description>Переплавить среднее кол-во железной руды в железо.</SmeltIronBulk.description>
+  <SmeltIronBulk.jobString>Выплавляет среднее кол-во железа.</SmeltIronBulk.jobString>
+  <SmeltIronLarge.label>Выплавить 200 единиц железа из руды.</SmeltIronLarge.label>
+  <SmeltIronLarge.description>Переплавить большое кол-во железной руды в железо.</SmeltIronLarge.description>
+  <SmeltIronLarge.jobString>Выплавляет большое кол-во железа.</SmeltIronLarge.jobString>
+  <ElectroSmeltIronBulk.label>Выплавить 60 единиц железа в электроплавильне.</ElectroSmeltIronBulk.label>
+  <ElectroSmeltIronBulk.description>Переплавить среднее кол-во железной руды в железо в электроплавильне.</ElectroSmeltIronBulk.description>
+  <ElectroSmeltIronBulk.jobString>Выплавляет среднее кол-во железа.</ElectroSmeltIronBulk.jobString>
+  <ElectroSmeltIronLarge.label>Выплавить 200 единиц железа в электроплавильне.</ElectroSmeltIronLarge.label>
+  <ElectroSmeltIronLarge.description>Переплавить большое кол-во железной руды в железо в электроплавильне.</ElectroSmeltIronLarge.description>
+  <ElectroSmeltIronLarge.jobString>Выплавляет большое кол-во железа.</ElectroSmeltIronLarge.jobString>
+
+  <SmeltBronze.label>Выплавить 20 единиц бронзы.</SmeltBronze.label>
+  <SmeltBronze.description>Выплавить небольшое кол-во бронзы, используя медь и уголь.</SmeltBronze.description>
+  <SmeltBronze.jobString>Выплавляет небольшое кол-во бронзы.</SmeltBronze.jobString>
+  <SmeltBronzeBulk.label>Выплавить 100 единиц бронзы.</SmeltBronzeBulk.label>
+  <SmeltBronzeBulk.description>Выплавить большое кол-во бронзы, используя медь и уголь.</SmeltBronzeBulk.description>
+  <SmeltBronzeBulk.jobString>Выплавляет большое кол-во бронзы.</SmeltBronzeBulk.jobString>
+
+  <SmeltCopper.label>Выплавить 10 единиц меди.</SmeltCopper.label>
+  <SmeltCopper.description>Переплавить небольшое кол-во медной руды в медь.</SmeltCopper.description>
+  <SmeltCopper.jobString>Выплавляет небольшое кол-во меди.</SmeltCopper.jobString>
+  <SmeltCopperPrimitive.label>Выплавить 10 единиц меди в плавильной яме.</SmeltCopperPrimitive.label>
+  <SmeltCopperPrimitive.description>Переплавить небольшое кол-во медной руды в медь в плавильной яме.</SmeltCopperPrimitive.description>
+  <SmeltCopperPrimitive.jobString>Выплавляет небольшое кол-во меди.</SmeltCopperPrimitive.jobString>
+  <SmeltNativeCopper.label>Выплавить медь из медного самородка.</SmeltNativeCopper.label>
+  <SmeltNativeCopper.description>Выплавить небольшое кол-во меди из медного самородка.</SmeltNativeCopper.description>
+  <SmeltNativeCopper.jobString>Выплавляет небольшое кол-во меди.</SmeltNativeCopper.jobString>
+  <SmeltCopperBulk.label>Выплавить 50 единиц меди.</SmeltCopperBulk.label>
+  <SmeltCopperBulk.description>Переплавить среднее кол-во медной руды в медь.</SmeltCopperBulk.description>
+  <SmeltCopperBulk.jobString>Выплавляет среднее кол-во меди.</SmeltCopperBulk.jobString>
+  <SmeltCopperLarge.label>Выплавить 150 единиц меди.</SmeltCopperLarge.label>
+  <SmeltCopperLarge.description>Переплавить большое кол-во медной руды в медь.</SmeltCopperLarge.description>
+  <SmeltCopperLarge.jobString>Выплавляет большое кол-во меди.</SmeltCopperLarge.jobString>
+  <ElectroSmeltCopperBulk.label>Выплавить 60 единиц меди в электроплавильне.</ElectroSmeltCopperBulk.label>
+  <ElectroSmeltCopperBulk.description>Переплавить среднее кол-во медной руды в медь в электроплавильне.</ElectroSmeltCopperBulk.description>
+  <ElectroSmeltCopperBulk.jobString>Выплавляет среднее кол-во меди.</ElectroSmeltCopperBulk.jobString>
+  <ElectroSmeltCopperLarge.label>Выплавить 150 единиц меди в электроплавильне.</ElectroSmeltCopperLarge.label>
+  <ElectroSmeltCopperLarge.description>Переплавить большое кол-во медной руды в медь в электроплавильне.</ElectroSmeltCopperLarge.description>
+  <ElectroSmeltCopperLarge.jobString>Выплавляет большое кол-во меди.</ElectroSmeltCopperLarge.jobString>
+
+  <SmeltSilver.label>Выплавить 20 единиц серебра.</SmeltSilver.label>
+  <SmeltSilver.description>Переплавить небольшое кол-во серебряной руды в серебро.</SmeltSilver.description>
+  <SmeltSilver.jobString>Выплавляет небольшое кол-во серебра.</SmeltSilver.jobString>
+  <SmeltNativeSilver.label>Выплавить серебро из серебряного самородка.</SmeltNativeSilver.label>
+  <SmeltNativeSilver.description>Выплавить небольшое кол-во серебра из серебряного самородка.</SmeltNativeSilver.description>
+  <SmeltNativeSilver.jobString>Выплавляет небольшое кол-во серебра.</SmeltNativeSilver.jobString>
+  <SmeltSilverBulk.label>Выплавить 100 единиц серебра.</SmeltSilverBulk.label>
+  <SmeltSilverBulk.description>Переплавить большое кол-во серебряной руды в серебро.</SmeltSilverBulk.description>
+  <SmeltSilverBulk.jobString>Выплавляет большое кол-во серебра.</SmeltSilverBulk.jobString>
+  <SmeltSilverLarge.label>Выплавить 200 единиц серебра.</SmeltSilverLarge.label>
+  <SmeltSilverLarge.description>Переплавить большое кол-во серебряной руды в серебро.</SmeltSilverLarge.description>
+  <SmeltSilverLarge.jobString>Выплавляет большое кол-во серебра.</SmeltSilverLarge.jobString>
+
+  <SmeltNativeGold.label>Выплавить золото из золотого самородка.</SmeltNativeGold.label>
+  <SmeltNativeGold.description>Выплавить небольшое кол-во золота из золотого самородка.</SmeltNativeGold.description>
+  <SmeltNativeGold.jobString>Выплавляет небольшое кол-во золота.</SmeltNativeGold.jobString>
+
+</LanguageData>

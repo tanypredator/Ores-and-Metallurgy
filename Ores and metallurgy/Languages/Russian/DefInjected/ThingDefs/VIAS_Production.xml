@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NECBloomery.label>сыродутная печь</NECBloomery.label>
+  <NECBloomery.description>Печь, выдерживающая достаточные температуры для выплавки руды и сплавов, в небольших количествах и с низкой скоростью. Требует дров или угля для работы.</NECBloomery.description>
+
+  <SmeltingHole.label>плавильная яма</SmeltingHole.label>
+  <SmeltingHole.description>Примитивная плавильная яма, выдерживающая достаточные температуры для выплавки руд легкоплавких металлов, таких как медь, в небольших количествах и с низкой скоростью. Требует дров для работы.</SmeltingHole.description>
+
+</LanguageData>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>SmeltBronze</defName>
+    <label>alloying copper into bronze</label>
+    <description>Alloying copper with tin into hardened workable bronze with coal or charcoal.</description>
+    <jobString>Refining bronze from copper.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>500</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>20</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Copper</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Copper</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Bronze>20</Bronze>
+    </products>
+    <recipeUsers>
+      <li>NECBloomery</li>
+      <li>ElectricSmelter</li>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>VFEC_BronzeWorking</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmeltBronzeBulk</defName>
+    <label>alloying copper into bronze in bulk</label>
+    <description>Alloying lots of copper with tin into hardened workable bronze with coal or charcoal.</description>
+    <jobString>Refining bronze from copper in bulk.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>1500</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Copper</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Copper</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Bronze>100</Bronze>
+    </products>
+    <recipeUsers>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>VFEC_BronzeWorking</researchPrerequisite>
+  </RecipeDef>
+</Defs>

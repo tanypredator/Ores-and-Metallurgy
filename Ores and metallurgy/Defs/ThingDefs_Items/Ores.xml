@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>IronOre</defName>
+    <label>iron ore</label>
+    <description>A chunk of iron ore. While it's useless in its current form, it can be smelted to recover iron.</description>
+    <stackLimit>100</stackLimit>
+    <graphicData>
+      <texPath>IronOre</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.5</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>6</deepCommonality>
+    <deepCountPerPortion>60</deepCountPerPortion>
+    <deepLumpSizeRange>
+      <min>20</min>
+      <max>40</max>
+    </deepLumpSizeRange>
+  </ThingDef>
+
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>CopperOre</defName>
+    <label>copper ore</label>
+    <description>A chunk of copper ore. While it's useless in its current form, it can be smelted to recover copper.</description>
+    <stackLimit>100</stackLimit>
+    <graphicData>
+      <texPath>CopperOre</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>3</deepCommonality>
+    <deepCountPerPortion>40</deepCountPerPortion>
+    <deepLumpSizeRange>
+      <min>10</min>
+      <max>30</max>
+    </deepLumpSizeRange>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SilverOre</defName>
+    <label>silver ore</label>
+    <description>A chunk of silver ore. While it's useless in its current form, it can be smelted to recover silver.</description>
+    <stackLimit>100</stackLimit>
+    <graphicData>
+      <texPath>SilverOre</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.5</MarketValue>
+      <Mass>0.6</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>100</deepCountPerPortion>
+    <deepLumpSizeRange>
+      <min>4</min>
+      <max>16</max>
+    </deepLumpSizeRange>
+  </ThingDef>
+
+  <!-- =========== Misc chunks =========== -->
+
+  <ThingDef Name="NativeCopper" ParentName="ChunkBase">
+    <defName>NativeCopper</defName>
+    <label>native copper</label>
+    <description>A piece of copper that occurs as a natural mineral. While it's useless in its current form, it can be smelted to recover copper.</description>
+    <graphicData>
+      <texPath>NativeCopper</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+    <smeltable>true</smeltable>
+    <smeltProducts>
+      <Copper>10</Copper>
+    </smeltProducts>
+  </ThingDef>
+
+  <ThingDef Name="NativeSilver" ParentName="ChunkBase">
+    <defName>NativeSilver</defName>
+    <label>native silver</label>
+    <description>A piece of silver that occurs as a natural mineral. While it's useless in its current form, it can be smelted to recover silver.</description>
+    <graphicData>
+      <texPath>NativeSilver</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+    <smeltable>true</smeltable>
+    <smeltProducts>
+      <Silver>20</Silver>
+    </smeltProducts>
+  </ThingDef>
+
+  <ThingDef Name="NativeGold" ParentName="ChunkBase">
+    <defName>NativeGold</defName>
+    <label>native gold</label>
+    <description>A piece of gold that occurs as a natural mineral. While it's useless in its current form, it can be smelted to recover gold.</description>
+    <graphicData>
+      <texPath>NativeGold</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>4</Mass>
+    </statBases>
+    <soundDrop>ChunkSlag_Drop</soundDrop>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+    <smeltable>true</smeltable>
+    <smeltProducts>
+      <Gold>10</Gold>
+    </smeltProducts>
+  </ThingDef>
+
+</Defs>

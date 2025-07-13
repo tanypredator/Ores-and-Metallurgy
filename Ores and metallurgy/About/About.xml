@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Ores and metallurgy</name>
+  <packageId>TP.OresAndMetallurgy</packageId>
+  <author>Tanypredator</author>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>This mod changes silver and steel deposits' yeld to iron and silver ores, that have to be smelted into iron and silver, and iron can be further smelted into the steel. Also it adds copper ore, that can be smelted into copper and further into bronze.
+
+[h1]Warning! Work in progress! Not tested thoroughly.[/h1]
+
+Expansion of Mlie [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2644227855]Vanilla Iron and Steel[/url] mod based on [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1883690422]Neceross mod[/url] 
+
+The main aim of this mod is to add some realism into the process of obtaining metals, in line with such mods as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2610910079]Cloth Production Expanded[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3153216240]Better Wool Production[/url]. Another aim is to bring some variety in the metals used, especially in a sense of metals used in tribal and classical starts. To achieve this goal I've written a whole lot of patches for both vanilla and modded buildings, so they could use different metals instead of only steel; I've also set the production in such a way that iron and steel are simply unavailable to tribals, until they can build at least bloomery.
+
+This mod makes it definitely harder to obtain metals. To make it a bit easier, and for another point of realism, I've added native metals that can spawn on the map at the game start - mostly, native copper.
+
+[b]It's highly advised to use this in a new save.[/b] It will still work if you add it mid save, but deep drilling will be affected. Steel deposits will act weird, and will likely give 1 steel each digging. (This note is from the Vanilla Iron and Steel. [b]WARNING! This new mod wasn't tested for deep drilling at all![/b] I've written it so that copper, iron and silver ores were spawned in depth, the amount of iron being increased compared to vanilla (while it is decreased on the surface), but I don't know how to test that quickly. Also no copper deposits will be on the map if added mid-save.)
+[b]I suppose that removing this mod from the save will break it.[/b]
+
+[h1]Requirements[/h1]
+
+You require a coal mod for Ores and metallurgy to function correctly. I've retained all the patches from Vanilla Iron and Steel mod, but Coal Expanded is the only one I've tested, and I added new recipes from this mod to the Coal Expanded's coal smelter. The whole list of the mods that add coal is the following:
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1874344070]Coal Expanded[/url] (for transparency, I made this one too)
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1619943968]Simple Coal[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=732569232]Medieval Times[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1797397487]Apothecary[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1550854139]Survivalist's Additions[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1541903513]Atlas' Materials[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1736127702]Clockwork and Steam[/url]
+[/list]
+
+[h1]Compatibility[/h1]
+
+It probably won't work with any mod that change the steel/silver deposit yield, like Simple Chains: Steel.
+
+The list of mods for which patches are included:
+[list]
+[*] Core game, Ideology and Biotech
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX Smoke[/url] (smelters emit smoke)
+[*] Combat Extended (not tested)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2327252470]Primitive Workbenches[/url] (research requirement for bloomery changed to the Primitive Smithing)
+[*] RimOverhaul (not tested)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=836308268]Dubs Bad Hygiene[/url] (many fixtures now require bronze instead of steel, while many other buildings now require any metal)
+[*] [url=https://steamcommunity.com/workshop/filedetails/?id=2787850474]Vanilla Factions Expanded - Classical[/url] (research requirement for bronze smelting changed to the VFEC Bronze Working; VFEC Bronze itself is apparently removed)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3022062151]Early Vehicle Parts[/url] (nails require any metal)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2121326566]Hospitals Extended[/url] (industrial surgical lamp require copper)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2000097643]Primitive moisture pump[/url] (now made of any metal)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2559958496]T's Samurai Faction[/url] (Pit Hearth is now made of any metal)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3140154844]Wastepack Powerplant[/url] (now require some copper)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3171020845]Radio (Continued)[/url] (now require some copper)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=796059100]Simple Nuclear Reactor[/url] (now require some copper)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3023778210]Walkie-Talkie (Continued)[/url] (now require some copper)
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2884952468]Preemptive Strike (v1.4 Fork)[/url] (Radar now require some copper)
+[/list]
+
+[h1]Future plans[/h1]
+- I won't make patches to the mods I'm not playing with. Feel free to make and upload them or send them to me - I'll add them (without testing).
+- I want to add some more pre-electrical furnaces (and maybe one for the late game), but I'm bad in arts and no ETA anyway.
+- I might add copper requirements to the Power++ buildings sometime in future.
+
+*MIT License; Copyright (c) 2020 Billy J Barnes*
+</description>
+  <modVersion>1.0</modVersion>
+</ModMetaData>

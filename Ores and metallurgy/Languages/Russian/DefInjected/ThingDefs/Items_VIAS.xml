@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MineableSteel.label>залежи железа</MineableSteel.label>
+  <MineableSteel.description>Горная порода с признаками содержания соединений железа.</MineableSteel.description>
+
+  <IronOre.label>железная руда</IronOre.label>
+  <IronOre.description>Железная руда, которую можно переплавить в железо. Железо мягкое и легко поддается коррозии, из-за чего практически не используется в сыром виде.</IronOre.description>
+
+  <Iron.label>железо</Iron.label>
+  <Iron.description>Необработанное железо, которое можеть быть переплавлено в сталь. Железо мягкое и легко поддается коррозии, из-за чего практически не используется в сыром виде.</Iron.description>
+  <Iron.stuffProps.stuffAdjective>железа</Iron.stuffProps.stuffAdjective>
+
+  <MineableCopperOre.label>залежи меди</MineableCopperOre.label>
+  <MineableCopperOre.description>Горная порода с прожилками медных минералов.</MineableCopperOre.description>
+
+  <CopperOre.label>медная руда</CopperOre.label>
+  <CopperOre.description>Медная руда, которую можно переплавить в медь. Медь очень мягкий, но легкий в обработке и красивый металл.</CopperOre.description>
+
+  <Copper.label>медь</Copper.label>
+  <Copper.description>Необработанная медь, которую можно переплавить в бронзу. Медь очень мягкий, но легкий в обработке и красивый металл.</Copper.description>
+
+  <NativeCopper.label>самородная медь</NativeCopper.label>
+  <NativeCopper.description>Медный самородок, который можно очистить для получения меди. Медь очень мягкий, но легкий в обработке и красивый металл.</NativeCopper.description>
+
+  <Copper.stuffProps.stuffAdjective>меди</Copper.stuffProps.stuffAdjective>
+
+  <SilverOre.label>серебряная руда</SilverOre.label>
+  <SilverOre.description>Серебряная руда, которую можно переплавить в серебро. Серебро - красивый и устойчивый к коррозии металл, обычно используемый для изготовления украшений или монет.</SilverOre.description>
+
+  <NativeSilver.label>серебряный самородок</NativeSilver.label>
+  <NativeSilver.description>Серебряный самородок, который можно очистить для получения серебра. Серебро - красивый и устойчивый к коррозии металл, обычно используемый для изготовления украшений или монет.</NativeSilver.description>
+
+  <NativeGold.label>золотой самородок</NativeGold.label>
+  <NativeGold.description>Золотой самородок, который можно очистить для получения золота. Золото - очень красивый и устойчивый к коррозии металл, обычно используемый для изготовления украшений.</NativeGold.description>
+
+  <Bronze.label>бронза</Bronze.label>
+  <Bronze.description>Сплав меди и олова, широко применяющийся в ранних цивилизациях для изготовления оружия, инсрументов, украшений и различных деталей.</Bronze.description>
+
+  <Bronze.stuffProps.stuffAdjective>бронзы</Bronze.stuffProps.stuffAdjective>
+
+</LanguageData>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>SmeltIron</defName>
+    <label>smelt iron ore into iron</label>
+    <description>Smelt iron ore into the  workable iron with coal or charcoal.</description>
+    <jobString>Refining iron from iron ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>15</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>IronOre</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>IronOre</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Iron>15</Iron>
+    </products>
+    <recipeUsers>
+      <li>NECBloomery</li>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Bronze_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmeltIronBulk</defName>
+    <label>smelt iron ore into iron in bulk</label>
+    <description>Smelt lots of iron ore into workable iron with coal or charcoal.</description>
+    <jobString>Refining iron from iron ore in bulk.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>60</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>IronOre</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>IronOre</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Iron>60</Iron>
+    </products>
+    <recipeUsers>
+      <li>NECBloomery</li>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Bronze_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmeltIronLarge</defName>
+    <label>smelt a large amount of iron ore into iron</label>
+    <description>Smelt lots of iron ore into workable iron with coal or charcoal.</description>
+    <jobString>Refining iron from a large amount iron ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>4500</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>200</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs />
+        </filter>
+        <count>150</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>IronOre</li>
+          </thingDefs>
+        </filter>
+        <count>500</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>IronOre</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Iron>200</Iron>
+    </products>
+    <recipeUsers>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Steel_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>ElectroSmeltIronBulk</defName>
+    <label>smelt iron ore into iron in bulk in electric smelter</label>
+    <description>Smelt lots of iron ore into workable iron.</description>
+    <jobString>Refining iron from iron ore in bulk.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>60</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>IronOre</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>IronOre</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Iron>60</Iron>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Steel_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>ElectroSmeltIronLarge</defName>
+    <label>smelt a large amount of iron ore into iron in electric smelter</label>
+    <description>Smelt lots of iron ore into workable iron.</description>
+    <jobString>Refining iron from a large amount iron ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>2500</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>200</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>IronOre</li>
+          </thingDefs>
+        </filter>
+        <count>500</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>IronOre</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Iron>200</Iron>
+    </products>
+    <recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Steel_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

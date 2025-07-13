@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Primitive Workbenches</li>
+    </mods>
+
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ResearchProjectDef[defName="VBY_PrimitiveSmithing"]/prerequisites</xpath>
+          <value>
+		 <prerequisites>
+  	 	   <li>TP_Tribal_Metallurgy</li>
+ 	  	 </prerequisites>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  </Operation>
+
+</Patch>

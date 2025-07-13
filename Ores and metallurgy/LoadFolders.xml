@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.5>
+    <li>/</li>
+    <li IfModActive="OskarPotocki.VFE.Classical">VFE_Classical/VFE_Classical/</li>
+    <li IfModNotActive="OskarPotocki.VFE.Classical">VFE_Classical/Vanilla/</li>
+  </v1.5>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="OskarPotocki.VFE.Classical">VFE_Classical/VFE_Classical/</li>
+    <li IfModNotActive="OskarPotocki.VFE.Classical">VFE_Classical/Vanilla/</li>
+  </v1.6>
+</loadFolders>

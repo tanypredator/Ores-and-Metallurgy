@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ResearchProjectDef>
+    <defName>TP_Tribal_Metallurgy</defName>
+    <label>tribal metallurgy</label>
+    <description>The basic knowledge of handling metals.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  <researchViewX>-1.00</researchViewX>
+  <researchViewY>10.50</researchViewY>
+  </ResearchProjectDef>
+    
+  
+  <ResearchProjectDef>
+    <defName>TP_Steel_Metallurgy</defName>
+    <label>steel metallurgy</label>
+    <description>Invention of modern metal alloys and technology.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+  <researchViewX>20.00</researchViewX>
+  <researchViewY>10.00</researchViewY>
+	<prerequisites>
+	  <li>Smithing</li>
+	</prerequisites>
+  </ResearchProjectDef>
+  
+</Defs>

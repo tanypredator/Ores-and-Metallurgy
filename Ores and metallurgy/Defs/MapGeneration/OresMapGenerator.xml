@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<GenStepDef>
+    <order>320</order>
+    <defName>NativeMetals</defName>
+    <genStep Class="GenStep_ScatterGroup">
+      <allowInWaterBiome>false</allowInWaterBiome>
+      <minSpacing>50</minSpacing>
+      <countPer10kCellsRange>1~3</countPer10kCellsRange>
+      <allowRoofed>false</allowRoofed>
+      <groups>
+        <li>
+          <things>
+            <NativeCopper>0.6</NativeCopper>
+          </things>
+          <indoorRuin>false</indoorRuin>
+          <coveredCellsPer10Cells>1.5~2.5</coveredCellsPer10Cells>
+          <clusterRectRadius>2~3</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <NativeSilver>0.1</NativeSilver>
+          </things>
+          <indoorRuin>true</indoorRuin>
+          <coveredCellsPer10Cells>0.5~1.5</coveredCellsPer10Cells>
+          <clusterRectRadius>1~2</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <NativeGold>0.1</NativeGold>
+          </things>
+          <indoorRuin>false</indoorRuin>
+          <coveredCellsPer10Cells>0.5~1</coveredCellsPer10Cells>
+          <clusterRectRadius>1~2</clusterRectRadius>
+        </li>
+      </groups>
+    </genStep>
+  </GenStepDef>
+
+</Defs>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Early Vehicle Parts</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/RecipeDef[defName="EVP_Nail_Simple"]/ingredients</xpath>
+        	<value>
+   		 	<ingredients>
+   		  	 <li>
+     		   		<filter>
+       		  		 <categories>
+         		  			 <li>Metallic</li>
+        		 		 </categories>
+       		 	</filter>
+       	 		<count>10</count>
+     		 	 </li>
+    			</ingredients>
+        	</value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Hospitals Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="sd_medicaddons_industrial_surg_lamp"]/costList/Steel</xpath>
+        		<value>
+  		    		<Steel>80</Steel>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="sd_medicaddons_industrial_surg_lamp"]/costList</xpath>
+        		<value>
+  		    		<Copper>20</Copper>
+        		</value>
+      	</li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Primitive moisture pump</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="TVG_PrimitiveMoisturePump"]/costList/Steel</xpath>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="TVG_PrimitiveMoisturePump"]</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="TVG_PrimitiveMoisturePump"]</xpath>
+        		<value>
+      		    <costStuffCount>75</costStuffCount>
+        		</value>
+      	</li>
+
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Wastepack Powerplant</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="WastepackPowerplant"]/costList/Steel</xpath>
+        		<value>
+  		    		<Steel>50</Steel>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="WastepackPowerplant"]/costList</xpath>
+        		<value>
+  		    		<Copper>25</Copper>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="WastepackPowerplantNB"]/costList/Steel</xpath>
+        		<value>
+  		    		<Steel>50</Steel>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="WastepackPowerplantNB"]/costList</xpath>
+        		<value>
+  		    		<Copper>25</Copper>
+        		</value>
+      	</li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Radio (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="Radio"]/costList/Steel</xpath>
+        		<value>
+  		    		<Steel>30</Steel>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="Radio"]/costList</xpath>
+        		<value>
+  		    		<Copper>20</Copper>
+        		</value>
+      	</li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Simple Nuclear Reactor</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="SimpleNuclearReactor"]/costList/Steel</xpath>
+        		<value>
+  		    		<Steel>500</Steel>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="SimpleNuclearReactor"]/costList</xpath>
+        		<value>
+  		    		<Copper>100</Copper>
+        		</value>
+      	</li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[TP]Walkie-Talkie (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="WalkieTalkie"]/costList/Steel</xpath>
+        		<value>
+  		    		<Steel>30</Steel>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="WalkieTalkie"]/costList</xpath>
+        		<value>
+  		    		<Copper>10</Copper>
+        		</value>
+      	</li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Preemptive Strike (v1.4 Fork)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="PES_Radar"]/costList/Steel</xpath>
+        		<value>
+  		    		<Steel>250</Steel>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="PES_Radar"]/costList</xpath>
+        		<value>
+  		    		<Copper>50</Copper>
+        		</value>
+      	</li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>T's Samurai Faction</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="TSF_PitHearth"]/costList/Steel</xpath>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="TSF_PitHearth"]</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="TSF_PitHearth"]</xpath>
+        		<value>
+      		    <costStuffCount>25</costStuffCount>
+        		</value>
+      	</li>
+
+  		<li Class="PatchOperationRemove">
+    			<xpath>Defs/ThingDef[defName="TSF_PitHearth"]/constructEffect</xpath>
+  		</li>
+
+      </operations>
+    </match>
+  </Operation>
+
+
+</Patch>
+

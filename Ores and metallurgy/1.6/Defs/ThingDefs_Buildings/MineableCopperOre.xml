@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="RockBase">
+    <defName>MineableCopperOre</defName>
+    <label>copper ore</label>
+    <description>Solid rock with a shiny copper glint to it.</description>
+    <graphicData>
+      <shaderType>CutoutComplex</shaderType>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+	<graphicClass>Graphic_Single</graphicClass>
+      <color>(130,140,140)</color>
+      <colorTwo>(45,145,120)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>CopperOre</mineableThing>
+      <mineableYield>60</mineableYield>
+      <mineableScatterCommonality>0.6</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>15~30</mineableScatterLumpSizeRange>
+      <veinMineable>true</veinMineable>
+    </building>
+  </ThingDef>
+
+</Defs>

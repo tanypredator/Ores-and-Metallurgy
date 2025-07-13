@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Textures Expanded</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Steel"]/graphicData/texPath</xpath>
+      <value>
+        <texPath>Steel</texPath>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

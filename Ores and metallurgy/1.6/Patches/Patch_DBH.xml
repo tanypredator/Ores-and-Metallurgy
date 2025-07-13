@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Dubs Bad Hygiene</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="WaterTrough"]/costList</xpath>
+      	</li>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="WaterTrough"]/costStuffCount</xpath>
+        		<value>
+      		    <costStuffCount>75</costStuffCount>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="BurnPit"]/costList</xpath>
+      	</li>
+    		<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="BurnPit"]</xpath>
+        		<value>
+          			<stuffCategories>
+	      			<li>Metallic</li>
+          			</stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="BurnPit"]</xpath>
+        		<value>
+      		    <costStuffCount>20</costStuffCount>
+        		</value>
+      	</li>
+ 		 <li Class="PatchOperationRemove">
+  		  <xpath>Defs/ThingDef[defName="BurnPit"]/constructEffect</xpath>
+ 		 </li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="BasinStuff"]/costList</xpath>
+        		<value>
+				<costList>
+					<Bronze>5</Bronze>
+				</costList>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="Fountain"]/costList</xpath>
+        		<value>
+				<costList>
+					<Bronze>5</Bronze>
+				</costList>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="KitchenSink"]/costList</xpath>
+        		<value>
+				<costList>
+					<Bronze>15</Bronze>
+				</costList>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="ToiletStuff"]/costList</xpath>
+        		<value>
+				<costList>
+					<Bronze>5</Bronze>
+				</costList>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="BathtubStuff"]/costList</xpath>
+        		<value>
+				<costList>
+					<Bronze>15</Bronze>
+				</costList>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="ShowerSimple"]/costList</xpath>
+        		<value>
+				<costList>
+					<Bronze>15</Bronze>
+				</costList>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="ShowerStuff"]/costList</xpath>
+        		<value>
+				<costList>
+					<Bronze>5</Bronze>
+				</costList>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="WaterTowerS"]/costList</xpath>
+        		<value>
+				<costList>
+					<Bronze>25</Bronze>
+				</costList>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="WindPump"]/costList</xpath>
+      	</li>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="WindPump"]/costStuffCount</xpath>
+        		<value>
+      		    <costStuffCount>105</costStuffCount>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="LogBoiler"]/costList</xpath>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="LogBoiler"]</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="LogBoiler"]</xpath>
+        		<value>
+      		    <costStuffCount>200</costStuffCount>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="SolarHeater"]/costList</xpath>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="SolarHeater"]</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="SolarHeater"]</xpath>
+        		<value>
+      		    <costStuffCount>75</costStuffCount>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="HotWaterTank"]/costList</xpath>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="HotWaterTank"]</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="HotWaterTank"]</xpath>
+        		<value>
+      		    <costStuffCount>75</costStuffCount>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="RadiatorStuffed"]/costList</xpath>
+      	</li>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="RadiatorStuffed"]/stuffCategories</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="RadiatorStuffed"]/costStuffCount</xpath>
+        		<value>
+      		    <costStuffCount>25</costStuffCount>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="RadiatorLarge"]/costList</xpath>
+      	</li>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="RadiatorLarge"]/stuffCategories</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="RadiatorLarge"]/costStuffCount</xpath>
+        		<value>
+      		    <costStuffCount>75</costStuffCount>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="RadiatorTowelRail"]/costList</xpath>
+      	</li>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="RadiatorTowelRail"]/stuffCategories</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationReplace">
+        		<xpath>Defs/ThingDef[defName="RadiatorTowelRail"]/costStuffCount</xpath>
+        		<value>
+      		    <costStuffCount>25</costStuffCount>
+        		</value>
+      	</li>
+
+      	<li Class="PatchOperationRemove">
+        		<xpath>Defs/ThingDef[defName="IrrigationSprinkler"]/costList/Steel</xpath>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="IrrigationSprinkler"]</xpath>
+        		<value>
+     		    	 <stuffCategories>
+	     			 <li>Metallic</li>
+         		 </stuffCategories>
+        		</value>
+      	</li>
+      	<li Class="PatchOperationAdd">
+        		<xpath>Defs/ThingDef[defName="IrrigationSprinkler"]</xpath>
+        		<value>
+      		    <costStuffCount>15</costStuffCount>
+        		</value>
+      	</li>
+
+
+      </operations>
+    </match>
+  </Operation>
+
+
+</Patch>
+

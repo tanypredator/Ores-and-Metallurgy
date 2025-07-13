@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>SmeltingHole</defName>
+    <label>smelting hole</label>
+    <description>A primitive smelting hole which can be fired hot enough to smelt ores of soft metals such as copper, though only small amounts and not as quickly as a bloomery. Can be fueled with wood and coal.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <category>Building</category>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Building/SmeltingHole/SmeltingHole</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	<shaderType>CutoutComplex</shaderType>
+      <drawSize>(3.3, 2.3)</drawSize>
+    </graphicData>
+    <size>(3,2)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.40</fillPercent>
+    <surfaceType>Item</surfaceType>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>750</WorkToBuild>
+      <Flammability>0</Flammability>
+      <WorkTableWorkSpeedFactor>0.2</WorkTableWorkSpeedFactor>
+    </statBases>
+    <selectable>true</selectable>
+    <costStuffCount>2</costStuffCount>
+    <stuffCategories>
+      <li>Stony</li>
+      <li>Chunks</li>
+    </stuffCategories>
+	<defaultStuff>ChunkLimestone</defaultStuff>
+
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <resourcesFractionWhenDeconstructed>.75</resourcesFractionWhenDeconstructed>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>50.0</fuelConsumptionRate>
+        <fuelCapacity>50.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>0</initialFuelPercent>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>10</heatPerSecond>
+        <heatPushMaxTemperature>45</heatPushMaxTemperature>
+      </li>
+    </comps>
+    <designationCategory>Production</designationCategory>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <recipes>
+      <li>SmeltWeapon</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <isMealSource>false</isMealSource>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <researchPrerequisites>
+      <li>TP_Tribal_Metallurgy</li>
+    </researchPrerequisites>
+  </ThingDef>
+</Defs>

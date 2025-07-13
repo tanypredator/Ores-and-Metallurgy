@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>SmeltSilver</defName>
+    <label>smelt silver ore into silver</label>
+    <description>Smelt silver ore into the  workable silver.</description>
+    <jobString>Refining silver from silver ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>20</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SilverOre</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SilverOre</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Silver>20</Silver>
+    </products>
+    <recipeUsers>
+      <li>NECBloomery</li>
+      <li>ElectricSmelter</li>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Bronze_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmeltNativeSilver</defName>
+    <label>smelt native silver into silver</label>
+    <description>Smelt native silver into the  workable silver.</description>
+    <jobString>Refining silver from native silver.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>300</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>20</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>NativeSilver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>NativeSilver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Silver>20</Silver>
+    </products>
+    <recipeUsers>
+      <li>SmeltingHole</li>
+      <li>NECBloomery</li>
+      <li>ElectricSmelter</li>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Tribal_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>SmeltSilverBulk</defName>
+    <label>smelt silver ore into silver in bulk</label>
+    <description>Smelt lots of silver ore into workable silver.</description>
+    <jobString>Refining silver from silver ore in bulk.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>100</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SilverOre</li>
+          </thingDefs>
+        </filter>
+        <count>250</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SilverOre</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Silver>100</Silver>
+    </products>
+    <recipeUsers>
+      <li>NECBloomery</li>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Bronze_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>SmeltSilverLarge</defName>
+    <label>smelt a large amount of silver ore into silver</label>
+    <description>Smelt lots of silver ore into workable silver.</description>
+    <jobString>Refining silver from a large amount silver ore.</jobString>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <workAmount>3500</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <workSkillLearnFactor>0.25</workSkillLearnFactor>
+    <targetCountAdjustment>200</targetCountAdjustment>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SilverOre</li>
+          </thingDefs>
+        </filter>
+        <count>500</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SilverOre</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Silver>200</Silver>
+    </products>
+    <recipeUsers>
+      <li MayRequire="Mlie.CoalExpanded">CoalSmelter</li>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
+    <researchPrerequisite>TP_Bronze_Metallurgy</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

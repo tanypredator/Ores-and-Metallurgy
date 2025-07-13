@@ -1,43 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>Vanilla Factions Expanded - Classical</li>
-    </mods>
-
-    <match Class="PatchOperationSequence">
-      <success>Always</success>
-      <operations>
-
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/RecipeDef[defName="VFEC_Make_Bronze"]/recipeUsers</xpath>
-          <value>
+      <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="VFEC_Make_Bronze"]/recipeUsers</xpath>
+        <value>
     			<recipeUsers>
   		  	</recipeUsers>
-          </value>
-        </li>
+        </value>
+     </Operation>
 
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/RecipeDef[defName="VFEC_Make_Bronze"]/researchPrerequisite</xpath>
-          <value>
+      <Operation Class="PatchOperationReplace">
+        <xpath>Defs/RecipeDef[defName="VFEC_Make_Bronze"]/researchPrerequisite</xpath>
+        <value>
    			 <researchPrerequisite>
 			</researchPrerequisite>
-          </value>
-        </li>
+        </value>
+     </Operation>
 
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="VFEC_Bronze"]/commonality</xpath>
-          <value>
+      <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VFEC_Bronze"]/commonality</xpath>
+        <value>
   		    <commonality>0</commonality>
-          </value>
-        </li>
-
-      </operations>
-    </match>
-
-
-  </Operation>
+        </value>
+     </Operation>
 
       <Operation Class="PatchOperationAdd">
         <xpath>Defs/ResearchProjectDef[defName="Smithing"]</xpath>
@@ -46,6 +31,6 @@
   	   		 <li>VFEC_BronzeWorking</li>
   	 	 </prerequisites>
         </value>
-      </Operation>
+     </Operation>
 
 </Patch>
